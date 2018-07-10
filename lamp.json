@@ -1,0 +1,8 @@
+{
+  "name": "commands-base",
+  "build_docker": ["bash", "./build/build_docker.sh"],
+  "helm_chart": "dummy",
+  "docker_images": [
+    "commands-base"
+  ]
+}
