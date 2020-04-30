@@ -52,6 +52,7 @@ RUN . /root/.poetry/env \
 # a bit of pip global configuration since poetry uses it under the hood.
 ########################################################################################
 FROM python:3.8-slim
+LABEL maintainer="dev@fivestars.com"
 
 # Configure pip
 COPY --from=builder /etc/pip.conf /etc/pip.conf
